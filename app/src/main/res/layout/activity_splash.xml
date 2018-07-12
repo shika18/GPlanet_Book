@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#674172"
+    xmlns:pv="http://schemas.android.com/apk/res-auto"
+
+    >
+
+    <me.wangyuwei.particleview.ParticleView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/parsplash"
+        pv:pv_host_text="Reader"
+        pv:pv_host_text_size="35sp"
+        pv:pv_particle_text="GPlanet"
+        pv:pv_particle_text_size="35sp"
+        pv:pv_background_color="#ffffff"
+        pv:pv_text_color="#3cdaf5"
+        pv:pv_text_anim_time="1500"
+        pv:pv_spread_anim_time="1000"
+        pv:pv_host_text_anim_time="1500" />
+
+
+</RelativeLayout>
